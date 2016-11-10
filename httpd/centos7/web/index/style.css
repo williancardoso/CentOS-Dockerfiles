@@ -1,0 +1,77 @@
+@charset "utf-8";
+body { margin:0; padding:0; width:100%; color:#5f5f5f; font:normal 12px/1.8em Arial, Helvetica, sans-serif;}
+html, .main { padding:0; margin:0; background-color:#fff;}
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+h1 { margin:0; padding:0; color:#fff; font:bold 40px/1.2em Arial, Helvetica, sans-serif; text-align:center; letter-spacing:-2px;}
+h1 a, h1 a:hover { color:#fff; text-decoration:none;}
+h1 small { display:block; font:normal 13px/1.2em Arial, Helvetica, sans-serif; letter-spacing:normal; padding:8px 0;}
+h2 { font:bold 24px Arial, Helvetica, sans-serif; color:#5f5f5f; padding:8px 0; margin:8px 0;}
+p { margin:8px 0; padding:0 0 8px 0; font:normal 12px/1.8em Arial, Helvetica, sans-serif;}
+a { color:#0588c6; text-decoration:underline;}
+
+.header, .content, .fbg, form, ol, ul, ol li, .content .mainbar, .content { margin:0; padding:0;}
+.header_resize, .fbg_resize, { margin:0 auto; padding:0 40px; width:890px;}
+.content_resize { margin:0 auto; padding:0 ; width:50%;}
+.header_resize { margin:0 auto; padding:0; width:970px;}
+.content_resize, .fbg_resize { padding:24px 40px;}
+
+/* header */
+.header { 
+		height: 10%	; 
+		background:url(images/header_bg.gif) repeat-x top;
+		}
+.header .logo { 
+		background:url(images/logo_serpro.png) no-repeat center; 
+		height:100%; 
+		padding-top:220px;
+		}
+
+/* content */
+.content { 
+		background:url(images/content_bg.gif) repeat-x top;
+		}
+.content .mainbar { 
+		float:center; 
+		width:100%;
+		}
+.content .mainbar .article { 
+		margin:0; 
+		padding:0 0 16px 0;
+		text-align: center;
+		}
+.content .mainbar .article .serverTitle { 
+		font:bold 24px Arial, Helvetica, sans-serif;
+		margin:0; 
+		padding:16px 0 0 0;
+		text-align: center;
+		color: #5f5f5f;
+		}
+.content .mainbar .article .serverNumber { 
+		font:bold 48px Arial, Helvetica, sans-serif;
+		margin:0; 
+		padding:2px 0 0 0;
+		text-align: center;
+		color: #5f5f5f;
+		}
+.content .mainbar .article .serverIP { 
+		font:bold 24px Arial, Helvetica, sans-serif;
+		margin:0; 
+		padding:2px 0 0 0;
+		text-align: center;
+		color: #2d811a;
+		}
+
+
+/* fbg */
+.fbg { background-color:#0588c6; color:#fff;}
+.fbg h2 { color:#fff;}
+.fbg a { color:#fff;}
+.fbg img { padding:5px; border:1px solid #0476ac; background-color:#4ba9d6;}
+
+/* form */
+ol { list-style:none;}
+ol li { display:block; clear:both;}
+ol li label { display:block; margin:0; padding:16px 0 0 0;}
+ol li input.text { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:5px 2px; height:16px; background:#fff;}
+ol li textarea { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:2px; background:#fff;}
+ol li .send { margin:16px 0 0 0;}
